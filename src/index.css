@@ -1,37 +1,34 @@
-:root {
-  --deep: #171718;
-  --light: #71717a;
-  --black: #000000;
-  --wtext: #ffffff;
-  --sm: 0.5rem;
-  --md: 0.75rem;
-  --medium: 1rem;
-  --reg: 1.25rem;
-  --lg: 1.5rem;
-  --mlg: 1.75rem;
-}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable-dynamic-subset.css");
 
-/* text는 유동적으로, padding, margin은 root */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16px;
+  font-family: Pretendard;
+  @apply text-base m-0 p-0 box-content;
 }
 
 body {
-  background-color: var(--deep);
-}
-
-section {
-  max-width: 1280px;
+  @apply bg-zinc-900 text-white;
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
+  @apply flex justify-center items-center p-3;
+}
+
+section {
+  @apply max-w-[1280px];
+}
+
+button {
+  @apply border-none outline-none;
+}
+
+a {
+  @apply no-underline;
+}
+
+.logo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

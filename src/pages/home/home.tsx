@@ -1,5 +1,11 @@
+import { Input } from '@/components/templates/input';
+
 function Home() {
-  return <div>home</div>;
+  return (
+    <div>
+      <Input />
+    </div>
+  );
 }
 
 export default Home;
