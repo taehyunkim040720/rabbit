@@ -1,6 +1,37 @@
+:root {
+  --deep: #171718;
+  --light: #71717a;
+  --black: #000000;
+  --wtext: #ffffff;
+  --sm: 0.5rem;
+  --md: 0.75rem;
+  --medium: 1rem;
+  --reg: 1.25rem;
+  --lg: 1.5rem;
+  --mlg: 1.75rem;
+}
+
+/* text는 유동적으로, padding, margin은 root */
+
 * {
   border: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+body {
+  background-color: var(--deep);
+}
+
+section {
+  max-width: 1280px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
