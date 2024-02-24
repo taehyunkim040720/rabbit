@@ -22,4 +22,4 @@ function Header({ isMenuVisible = true }: HeaderProps) {
   );
 }
 
-export default Header;
+export { Header };

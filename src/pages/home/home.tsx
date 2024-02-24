@@ -1,4 +1,4 @@
-import { Input } from '@/components/templates/input';
+import { Input } from '@/components/templates';
 
 function Home() {
   return (
