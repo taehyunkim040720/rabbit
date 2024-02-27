@@ -13,12 +13,16 @@ body {
   @apply bg-zinc-900 text-white;
 }
 
+a, button {
+  @apply cursor-pointer
+}
+
 main {
-  @apply flex justify-center items-center p-3;
+  @apply grid place-items-center flex-grow;
 }
 
 section {
-  @apply max-w-[1280px];
+  @apply max-w-[1280px] p-4;
 }
 
 button {
@@ -31,4 +35,5 @@ a {
 
 .logo {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  @apply text-3xl font-bold tracking-wide;
 }
