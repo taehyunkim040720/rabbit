@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Button } from './button';
-import Logo from '/public/favicon.ico';
+import Logo from '/logo.png';
 
 interface HeaderProps {
   isMenuVisible?: boolean;
