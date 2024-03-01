@@ -8,7 +8,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 const inputVariantFactory: SizeVariants = {
   sm: 'text-sm px-3 py-1',
   default: 'text-md px-3 py-2 text-md',
-  lg: 'text-lg px-3 py-3'
+  lg: 'text-lg px-3 py-2'
 };
 
 function Input({ className, variants = 'default', ...props }: InputProps) {

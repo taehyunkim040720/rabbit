@@ -10,7 +10,7 @@ function Header({ isMenuVisible = true }: HeaderProps) {
     <header className="sticky left-0 top-0 z-50 flex h-fit justify-center">
       <div className="flex w-full max-w-[1280px] items-center justify-between p-4 backdrop-blur-sm">
         <Link replace to="/">
-          <h1 className="logo">Rabbit :</h1>
+          <div className=""></div>
         </Link>
         {!!isMenuVisible && (
           <ul className="flex items-center gap-4">

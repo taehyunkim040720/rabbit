@@ -18,11 +18,11 @@ a, button {
 }
 
 main {
-  @apply grid place-items-center flex-grow;
+  @apply flex-grow flex justify-center;
 }
 
 section {
-  @apply max-w-[1280px] p-4;
+  @apply w-full max-w-screen-lg p-4;
 }
 
 button {
