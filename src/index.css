@@ -22,7 +22,7 @@ main {
 }
 
 section {
-  @apply w-full max-w-screen-lg p-4;
+  @apply w-full max-w-screen-xl p-4;
 }
 
 button {

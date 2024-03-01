@@ -18,7 +18,7 @@ interface WrapperBoxBlockProps {
 
 function WrapperBox({ children }: WrapperBoxProps) {
   return (
-    <div className="border-primary bg-theme hover:border-hover grid cursor-pointer gap-6 rounded-lg border p-4 transition duration-200 hover:scale-95 hover:brightness-105">
+    <div className="border-primary bg-theme hover:border-hover grid h-72 cursor-pointer gap-6 rounded-lg border p-4 transition duration-200 hover:scale-95 hover:brightness-105">
       {children}
     </div>
   );

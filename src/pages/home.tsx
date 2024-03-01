@@ -1,17 +1,36 @@
-import { Tag } from '@/components/templates';
-import { InterectionText } from '@/components/templates/interection-text';
+import {
+  InteractionText,
+  WrapperBox,
+  WrapperBoxContent,
+  WrapperBoxTitle
+} from '@/components/templates';
+import { GridTemplate } from '@/components/templates/grid-template';
 
 function Home() {
   return (
-    <section className="grid gap-8 pt-32">
-      <InterectionText
+    <section className="flex flex-col gap-20 pt-24">
+      <InteractionText
+        delay={3000}
         texts={[
           '테스트성 텍스트입니다.',
           '아름다운 테스트성 텍스트입니다.',
           '모던해보이는 테스트성 텍스트입니다.'
         ]}
       />
-      <Tag className="border-primary">개발</Tag>
+      <GridTemplate>
+        <WrapperBox>
+          <WrapperBoxTitle>안녕하세요</WrapperBoxTitle>
+          <WrapperBoxContent>반갑습니다 저는 김태현입니다.</WrapperBoxContent>
+        </WrapperBox>
+        <WrapperBox>
+          <WrapperBoxTitle>안녕하세요</WrapperBoxTitle>
+          <WrapperBoxContent>반갑습니다 저는 김태현입니다.</WrapperBoxContent>
+        </WrapperBox>
+        <WrapperBox>
+          <WrapperBoxTitle>안녕하세요</WrapperBoxTitle>
+          <WrapperBoxContent>반갑습니다 저는 김태현입니다.</WrapperBoxContent>
+        </WrapperBox>
+      </GridTemplate>
     </section>
   );
 }

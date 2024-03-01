@@ -17,7 +17,7 @@ export default {
     extend: {
       screens: {
         pc: '1280px',
-        mo: '780px'
+        mobile: '780px'
       }
     },
     colors: {
